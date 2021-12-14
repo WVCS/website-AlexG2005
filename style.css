@@ -1,3 +1,37 @@
 body {
+  background-color: #74B3CE;
+}
+h1 {
+  color: antiquewhite;
+  text-align: center;
+  position:absolute; 
+  top: 40px;
+}
+
+nav {
+  list-style-type: none;
+  background-color: #172A3A;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+}
+li {
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 50px;
+}
+
+li a:hover {
+  background-color: #508991;
+  color:black;
+}
+body {
 background-color: salmon;
 }
